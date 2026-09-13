@@ -1,0 +1,13 @@
+﻿<RCC>
+    <qresource prefix="/">
+        <file>resources/logo.svg</file>
+        <file>resources/extract_icon.svg</file>
+        <file>resources/insert_icon.svg</file>
+        <file>resources/records_icon.svg</file>
+        <file>resources/style.qss</file>
+        <file>resources/export_header_icon.svg</file>
+        <file>resources/extracted_header_icon.svg</file>
+        <file>resources/fileinfo_header_icon.svg</file>
+        <file>resources/filter_header_icon.svg</file>
+    </qresource>
+</RCC>

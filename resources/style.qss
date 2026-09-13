@@ -1,0 +1,116 @@
+QWidget {
+    background-color: #f4f8f9;
+    font-family: "Segoe UI";
+}
+QGroupBox {
+    background-color: #ffffff;
+    border: 1px solid #d5e5e8;
+    border-radius: 8px;
+    margin-top: 14px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #1a8fa3;
+    padding-top: 12px;
+}
+QGroupBox::title {
+    subcontrol-origin: margin;
+    left: 12px;
+    padding: 1px 6px;
+    color: #1a8fa3;
+}
+QPushButton {
+    background-color: #1a8fa3;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 8px 16px;
+    font-weight: 600;
+}
+QPushButton:hover {
+    background-color: #157689;
+}
+QPushButton:pressed {
+    background-color: #10606f;
+}
+QPushButton#extractButton, QPushButton#clearFilterButton, QPushButton#csvButton, QPushButton#excelButton {
+    background-color: white;
+    color: #1a8fa3;
+    border: 1.5px solid #1a8fa3;
+}
+QPushButton#extractButton:hover, QPushButton#clearFilterButton:hover, QPushButton#csvButton:hover, QPushButton#excelButton:hover {
+    background-color: #eaf6f8;
+}
+QLineEdit, QDateEdit {
+    border: 1px solid #d5e5e8;
+    border-radius: 5px;
+    padding: 6px 10px;
+    background: white;
+}
+QLineEdit:focus, QDateEdit:focus {
+    border: 1.5px solid #1a8fa3;
+}
+QTableWidget, QTableView {
+    border: 1px solid #d5e5e8;
+    border-radius: 6px;
+    gridline-color: #7a9ba3;
+    background: white;
+}
+QHeaderView::section {
+    background-color: #eaf6f8;
+    color: #1a8fa3;
+    border: none;
+    padding: 8px;
+    font-weight: 600;
+}
+QLabel#date, QLabel#fileStatus {
+    color: #333333;
+}
+
+QCalendarWidget QWidget {
+    background-color: white;
+    alternate-background-color: #eaf6f8;
+}
+
+QCalendarWidget QToolButton {
+    color: #1a8fa3;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    font-size: 13px;
+    icon-size: 16px, 16px;
+    padding: 4px;
+}
+
+QCalendarWidget QToolButton:hover {
+    background-color: #eaf6f8;
+    border-radius: 4px;
+}
+
+QCalendarWidget QMenu {
+    background-color: white;
+    border: 1px solid #d5e5e8;
+}
+
+QCalendarWidget QSpinBox {
+    background-color: white;
+    border: 1px solid #d5e5e8;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+QCalendarWidget QAbstractItemView:enabled {
+    background-color: white;
+    selection-background-color: #1a8fa3;
+    selection-color: white;
+    color: #333333;
+    outline: none;
+}
+
+QCalendarWidget QAbstractItemView:disabled {
+    color: #bbbbbb;
+}
+
+QCalendarWidget #qt_calendar_navigationbar {
+    background-color: #eaf6f8;
+    border-bottom: 1px solid #d5e5e8;
+}
