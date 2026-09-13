@@ -1,6 +1,6 @@
 # Data Viewer Pro —  Data Log Application for Embedded Systems
 
-A real-time data logging application built for embedded systems (ES). 
+A  data logging and visualisation application built for embedded systems (ES). 
 It stores and manages live data from different modules of the embedded system using SQLite, with a Qt-based GUI and backend.
 
 ## Features
